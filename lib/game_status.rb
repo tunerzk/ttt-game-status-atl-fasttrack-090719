@@ -24,8 +24,6 @@ if position_1 == "x" &&
   position_3 == "x" 'return'; 
   
 
-end
-end
 
 
 def position_taken?(board, index)
