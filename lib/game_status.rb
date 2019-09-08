@@ -29,7 +29,8 @@ if position_1 == "x" &&
 
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
-  board = [" "," "," "," "," "," "," "," "," "]
+  board = [" "," "," "," "," "," "," "," "," "],
+  
 end
 end
 # Define your WIN_COMBINATIONS constant
