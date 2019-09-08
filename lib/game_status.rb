@@ -25,7 +25,7 @@ if position_1 == "x" &&
   
 
 
-end
+end-of-input
 
 
 def position_taken?(board, index)
