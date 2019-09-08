@@ -11,6 +11,7 @@ WIN_COMBINATIONS = [
 [2,4,6]
 ]
 def #won?
+for each WIN_COMBINATION IN WIN_COMBINATIONS
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
   board = [" "," "," "," "," "," "," "," "," "]
