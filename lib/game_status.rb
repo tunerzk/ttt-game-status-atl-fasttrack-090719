@@ -11,7 +11,7 @@ WIN_COMBINATIONS = [
 [2,4,6]
 ]
 def #won?
- for .each 'win_combination'
+ for '.each' 'win_combination'
  in WIN_COMBINATIONS
 win_index_1 = WIN_COMBINATION[0]
 win_index_2 = WIN_COMBINATION[1]
