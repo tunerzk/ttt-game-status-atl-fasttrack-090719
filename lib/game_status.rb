@@ -15,9 +15,9 @@ for each WIN_COMBINATION IN WIN_COMBINATIONS
 win_index_1 = WIN_COMBINATION[0]
 win_index_2 = WIN_COMBINATION[1]
 win_index_3 = WIN_COMBINATION[2]
-postion_1 = board[win_index_1]
-postion_2 = board[win_index_2]
-
+position_1 = board[win_index_1]
+position_2 = board[win_index_2]
+position_3 = board[win_index_3]
 
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
