@@ -19,6 +19,15 @@ position_1 = board[win_index_1]
 position_2 = board[win_index_2]
 position_3 = board[win_index_3]
 
+if position_1 == "x" &&
+  position_2 == "x" &&
+  position_3 == "x" return WIN_COMBINATION
+  
+else
+  false
+end
+end
+
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
   board = [" "," "," "," "," "," "," "," "," "]
