@@ -11,7 +11,7 @@ WIN_COMBINATIONS = [
 [2,4,6]
 ]
 def #won?
- for .each' |WIN_COMBINATION|
+ for '.each, |WIN_COMBINATION|
  in WIN_COMBINATIONS
 win_index_1 = WIN_COMBINATION[0]
 win_index_2 = WIN_COMBINATION[1]
@@ -22,7 +22,7 @@ position_3 = board[win_index_3]
 
 if position_1 == "x" &&
   position_2 == "x" &&
-  position_3 == "x" 'return'; 
+  position_3 == "x" 
   
 
 
