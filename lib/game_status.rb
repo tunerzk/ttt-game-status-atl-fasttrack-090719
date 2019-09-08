@@ -23,8 +23,8 @@ if position_1 == "x" &&
   position_2 == "x" &&
   position_3 == "x" return WIN_COMBINATION
   
-else
-  false
+
+
 end
 end
 
