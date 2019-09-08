@@ -26,7 +26,7 @@ if position_1 == "x" &&
 
 
 end
-end
+
 
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
