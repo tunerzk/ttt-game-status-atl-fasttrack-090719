@@ -1,5 +1,5 @@
 # Helper Method
- 
+ board = [" "," "," "," "," "," "," "," "]
 WIN_COMBINATIONS = [
 [0,1,2], 
 [3,4,5],
@@ -29,7 +29,7 @@ if position_1 == "x" &&
 
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
-  board = [" "," "," "," "," "," "," "," "," "],
+  
   
   
 
